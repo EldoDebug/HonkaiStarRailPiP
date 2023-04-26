@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</Source>
+    <SmallTileSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</SmallTileSource>
+    <MediumTileSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</MediumTileSource>
+    <WideTileSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</WideTileSource>
+    <LargeTileSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</LargeTileSource>
+    <AppIconSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</AppIconSource>
+    <SplashScreenSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\EldoD\Downloads\250877994_142019264820007_670613347242175763_n.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <CommandLineArguments />
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <CommandLineArguments />
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>
